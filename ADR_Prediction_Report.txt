@@ -1,0 +1,11 @@
+AI-Powered Adverse Drug Reaction (ADR) Prediction
+
+Model Used: Random Forest with MultiOutputClassifier
+
+Accuracy: 0.1910
+F1 Score (micro): 0.9492
+Hamming Loss: 0.0955
+
+This project uses machine learning to predict potential Adverse Drug Reactions (ADRs) based on the SMILES structure of chemical compounds.
+RDKit was used to convert chemical structures into molecular fingerprints.
+The model helps in pharmacovigilance by identifying ADRs before clinical events.
